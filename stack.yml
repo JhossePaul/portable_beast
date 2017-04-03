@@ -1,0 +1,25 @@
+rabbitmq:
+  image: rabbitmq:3-management
+  links:
+    - consumer
+  ports:
+    - "5672:5672"
+    - "15672:15672"
+  roles:
+    - to_define
+
+compute_engine:
+  image: compute-engine
+  ports:
+    - "8080:8080"
+  links:
+    - to_define
+
+database:
+  - to_be_defined
+
+
+consumer:
+  - to_be_defined
+
+

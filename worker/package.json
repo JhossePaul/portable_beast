@@ -1,0 +1,17 @@
+{
+  "name": "beast-worker",
+  "version": "1.0.0",
+  "description": "A BEAST R node",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Paul Marquez",
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.1",
+    "node-shell": "^0.1.6",
+    "rio": "^2.4.1",
+    "uuid": "^3.0.1"
+  }
+}
